@@ -6,3 +6,4 @@ require("../stylesheets/main.scss")
 //TODO - Your ES6 JavaScript code (if any) goes here
 
 import "bootstrap";
+import * as fontawesome from "@fortawesome/fontawesome-free/js/all";

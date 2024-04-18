@@ -1,7 +1,68 @@
 // Your styles go here
 @import "bootstrap/scss/bootstrap";
+@import "@fortawesome/fontawesome-free/css/all.css";
 
 img{
     width: 100%;
     height: 100%;
 }
+
+.image-container{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 6fr 3fr 3fr 2fr 1fr 1fr 2fr; /*each number represents a column*/
+    gap: 10px;
+}
+
+.img1{
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.img2{
+    grid-area: 1 / 2 / span 2 / span 2;
+}
+
+.img3{
+    grid-area: 1 / 4 / span 1 / span 1;
+}
+
+
+.img4{
+    grid-area: 1 / 5 / span 1 / span 2;
+}
+
+.img5{
+    grid-area: 1 / 7 / span 1 / span 1;
+}
+
+.img6{
+    grid-area: 2 / 1 / span 2 / span 1;
+}
+
+.img7{
+    grid-area: 2 / 4 / span 2 / span 4;
+}
+
+.img8{
+    grid-area: 4 / 1 / span 1 / span 1;
+}
+
+.img9{
+    grid-area: 3 / 2 / span 2 / span 2;
+}
+
+.img10{
+    grid-area: 4 / 4 / span 1 / span 2;
+}
+
+.img11{
+    grid-area: 4 / 6 / span 1 / span 2;
+}
+
+.img12{
+    grid-area: 5 / 1 / span 1 / span 2;
+}
+
+.img13{
+    grid-area: 5 / 3 / span 1 / span 5;
+} 
